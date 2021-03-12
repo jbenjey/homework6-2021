@@ -80,7 +80,6 @@ header{
   margin: 10px;
   width: 300px;
 }
-*/
 
 /*Requirement 9*/
 #logo{
@@ -152,15 +151,20 @@ header{
   .nav_links{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   /*Requirement 16*/
   .price{
-    vertical-align: bottom;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
   }
   /*Requirement 17*/
   .package{
     border: solid 2px #45ADAD;
+    flex-basis: 200px;
+    flex-direction: row;
+
   }
   /*Requirement 18*/
   .gallery, #gallery{
